@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>fernandez_htmlformTASK</title>
+</head>
+<body>
+
+<nav class="navbar">
+<ul>
+<li><a href="Fernandez,Kimberly E-Portfolio.html"> Home </a></li>
+<li><a href="Activities.html"> Activities </a></li>
+</ul>
+</nav> 
+
+<!-- ■ Promotional Marquee -->
+<marquee direction="right" behavior="alternate" bgcolor="#FFFFCC" scrollamount="5">
+Limited-Time Offer! Order within 24 hours and receive a complimentary carrying case!
+</marquee>
+<h1>Chrono-Stabilizer 5000</h1>
+<h2>Product Specifications</h2>
+<!-- ■ Description List -->
+<dl>
+<dt><strong>Model Name</strong></dt>
+<dd>Chrono-Stabilizer 5000</dd>
+<dt><strong>Material</strong></dt>
+<dd>Aerospace-grade Titanium Alloy</dd>
+<dt><strong>Warranty</strong></dt>
+<dd>3-Year Limited Warranty (Parts and Labor)</dd>
+<dt><strong>Power Source</strong></dt>
+<dd>Bio-Kinetic Energy Cell</dd>
+</dl>
+<!-- ■ Customer Inquiry Form -->
+<!-- Start of Form -->
+<h2>Request More Information</h2>
+<form action="submit_inquiry.php" method="post">
+<!-- Full Name -->
+<label for="fullname">Full Name:</label><br>
+<input type="text" id="fullname" name="fullname" required><br><br>
+<!-- Email Address -->
+<label for="email">Email Address:</label><br>
+<input type="email" id="email" name="email" placeholder="example@domain.com"><br><br>
+<!-- Contact Method (Radio Buttons) -->
+<p>Preferred Contact Method:</p>
+<input type="radio" id="contactEmail" name="contact_method" value="email">
+<label for="contactEmail">Email</label><br>
+<input type="radio" id="contactPhone" name="contact_method" value="phone">
+<label for="contactPhone">Phone</label><br><br>
+<!-- Preferred Inquiry Time -->
+<label for="time">Preferred Inquiry Time:</label><br>
+<input type="time" id="time" name="inquiryTime"><br><br>
+<!-- Specific Question (Textarea) -->
+<label for="questions">Specific Question:</label><br>
+<textarea id="questions" name="questions" rows="5"></textarea><br><br>
+<!-- Subscription Checkbox -->
+<input type="checkbox" id="subscribe" name="subscribe" value="yes">
+<label for="subscribe">Subscribe to our weekly newsletter</label><br><br>
+<!-- Submit Button -->
+<button type="submit">Send Inquiry</button>
+</form>
+<!-- End of Form -->
+</body>
+</html>
